@@ -13,6 +13,12 @@ public class StreamTaskTest {
                         20
                 },
                 {
+                        new int[]{101, 102, 103, 105, 107},
+                        10404
+                },{
+                        new int[]{-500, -400, 110, 600, 522},
+                        1054584
+                },{
                         new int[]{-5, -4, 11, 6, 5},
                         52
                 },
@@ -20,7 +26,6 @@ public class StreamTaskTest {
                         new int[]{13, -2, 33, -4, 5},
                         20
                 }
-                // TODO add 2 more test data here
         };
     }
 
@@ -32,6 +37,12 @@ public class StreamTaskTest {
                         new int[]{1, 3, 5}
                 },
                 {
+                        new int[]{555, 333, 111, 222},
+                        new int[]{111, 333, 555}
+                },{
+                        new int[]{-100, 124, 211, 500},
+                        new int[]{211}
+                },{
                         new int[]{5, -3, 11, -5},
                         new int[]{-5, -3, 5, 11}
                 },
@@ -39,7 +50,6 @@ public class StreamTaskTest {
                         new int[]{130, -200, 330, -40, 50, 66},
                         new int[]{}
                 }
-                // TODO add 2 more test data here
         };
     }
 
